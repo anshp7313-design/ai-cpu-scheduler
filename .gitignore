@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Compiled C binaries (auto-built from scheduler.c via gcc)
+scheduler
+scheduler.exe
+*.o
+*.out
+
+# Generated runtime files
+input.txt
+output.txt
+metrics.txt
+gantt.png
+
+# OS files
+.DS_Store
+Thumbs.db
